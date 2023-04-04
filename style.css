@@ -36,7 +36,7 @@
 :root {
   --font-family: 'Space Grotesk', sans-serif;
 }
-h3 {
+ins {
   color: var(--primary);
 }
 ul {
@@ -52,9 +52,7 @@ ul > li {
   position: fixed;
   bottom: 20px;
   right: 20px;
-  font-size: larger;
-  padding: 0.
-  5rem;
-  background-color: rgba(67, 160, 71, 0.15);
+  padding: 0.5rem;
+  background-color: var(--primary-focus);
   border-radius: 0.75rem;
 }
