@@ -36,6 +36,9 @@
 :root {
   --font-family: 'Space Grotesk', sans-serif;
 }
+h3 {
+  color: var(--primary);
+}
 ul {
   display: flex;
   flex-wrap: wrap;
@@ -45,10 +48,13 @@ ul > li {
   list-style: disc;
 }
 .themeBtn {
+  width: min-content;
   position: fixed;
   bottom: 20px;
   right: 20px;
-  padding: 0.5rem;
+  font-size: larger;
+  padding: 0.
+  5rem;
   background-color: rgba(67, 160, 71, 0.15);
   border-radius: 0.75rem;
 }
