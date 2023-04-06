@@ -39,6 +39,9 @@
 ins {
   color: var(--primary);
 }
+.header-links > a {
+  margin-right: 1rem;
+}
 ul {
   display: flex;
   flex-wrap: wrap;
@@ -50,8 +53,8 @@ ul > li {
 .themeBtn {
   width: min-content;
   position: fixed;
-  bottom: 16px;
-  right: 16px;
+  bottom: 20px;
+  right: 20px;
   padding: 0.5rem;
   background-color: var(--primary-focus);
   border-radius: 0.75rem;
