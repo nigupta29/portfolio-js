@@ -50,8 +50,8 @@ ul > li {
 .themeBtn {
   width: min-content;
   position: fixed;
-  bottom: 20px;
-  right: 20px;
+  bottom: 16px;
+  right: 16px;
   padding: 0.5rem;
   background-color: var(--primary-focus);
   border-radius: 0.75rem;
