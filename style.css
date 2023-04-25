@@ -62,7 +62,6 @@ ul > li {
 
 #hero-container {
   display: flex;
-  align-items: center;
   gap: 36px;
 }
 
@@ -81,4 +80,8 @@ ul > li {
   #hero-container img {
     width: 60%;
   }
+}
+
+#about {
+  text-align: justify;
 }
